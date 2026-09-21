@@ -85,7 +85,7 @@ export default function Hero({ onOpenAiModal }) {
               </a>
 
               <a
-                href="/ER-RETBY_YOUSSEF CV.pdf"
+                href={`${import.meta.env.BASE_URL}ER-RETBY_YOUSSEF CV.pdf`}
                 download="ER-RETBY_YOUSSEF_CV.pdf"
                 className="w-full sm:w-auto px-5 py-3.5 rounded-xl font-semibold text-sm bg-dark-800 hover:bg-slate-800 text-slate-200 border border-slate-700/80 transition-all flex items-center justify-center gap-2"
               >
